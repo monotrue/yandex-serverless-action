@@ -15,8 +15,7 @@ envsubst < /config.tmpl > ~/.config/yandex-cloud/config.yaml
 
 envsubst < /credentials.tmpl > ~/.aws/credentials
 
-cd ${SOURCE_DIR} 
-npm install
+
 
 zip -r ${GITHUB_SHA}.zip ${SOURCE_DIR}
 
