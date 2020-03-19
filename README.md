@@ -1,4 +1,4 @@
-# Yandex serverless action
+# Yandex serverless action npm
 
 This action uploads code to object storage and update Serverless funstion in Yandex cloud.
 
@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: goodsmileduck/yandex-serverless-action@master
+    - uses: monotrue/yandex-serverless-action-npm@master
       env:
         SOURCE_DIR: '.'
         ZONE: 'ru-central1-a'
